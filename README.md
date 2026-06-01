@@ -7,8 +7,8 @@ Le projet repose sur :
 
 * la génération d'exports mensuels d'une machine EZmaster avec Ezcrawl
 * la transformation des données via un loader spécifique
-* l'agrégation des snapshots historiques vie un autre loader
-* la détection automatique des instances supprimées, d'sintances créées et un template qui permet, dans Lodex, d'evoyer automatiquement des mails aux détenteurs d'instances.
+* l'agrégation des snapshots historiques via un autre loader
+* la détection automatique des instances supprimées, d'instances créées et un template qui permet, dans Lodex, d'envoyer automatiquement des mails aux détenteurs d'instances.
 
 Les instances sont considérées comme :
 
@@ -54,7 +54,7 @@ Exemple :
 cat fin2026-06.json | ezs loaderEzCrawl.ini > fin2026-06.jsonl
 ```
 
-*L'exécution des scripts en **bash** n'est pas nécessaires mais évite de charger les dumps dans **Lodex** avec le 1er loader. D'extraire le résultat, puis de le réimporter avec le 2nd loader.*
+*L'exécution des scripts en **bash** n'est pas nécessaire mais évite de charger les dumps dans **Lodex** avec le 1er loader. D'extraire le résultat, puis de le réimporter avec le 2nd loader.*
 
 ### Dépendances utilisées
 
